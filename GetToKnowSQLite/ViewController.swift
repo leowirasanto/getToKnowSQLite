@@ -44,7 +44,7 @@ extension ViewController: UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellReusableIdentifier) as? UITableViewCell else { return UITableViewCell() }
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellReusableIdentifier) else { return UITableViewCell() }
         cell.textLabel?.text = "Name: \(persons[indexPath.row].name), Age: \(persons[indexPath.row].age)"
         return cell
     }
