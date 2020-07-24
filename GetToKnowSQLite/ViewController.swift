@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  GetToKnowSQLite
 //
-//  Created by MOKA on 24/07/20.
+//  Created by Leo on 24/07/20.
 //  Copyright © 2020 leowirasanto. All rights reserved.
 //
 
