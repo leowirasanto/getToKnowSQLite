@@ -13,6 +13,8 @@
 		E55FD87424CAD77A00A65415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55FD87224CAD77A00A65415 /* Main.storyboard */; };
 		E55FD87624CAD77B00A65415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E55FD87524CAD77B00A65415 /* Assets.xcassets */; };
 		E55FD87924CAD77B00A65415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55FD87724CAD77B00A65415 /* LaunchScreen.storyboard */; };
+		E55FD88224CADB9E00A65415 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55FD88124CADB9E00A65415 /* Person.swift */; };
+		E55FD88524CADBFB00A65415 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55FD88424CADBFB00A65415 /* DBHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E55FD87524CAD77B00A65415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E55FD87824CAD77B00A65415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E55FD87A24CAD77B00A65415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E55FD88124CADB9E00A65415 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		E55FD88424CADBFB00A65415 /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		E55FD86B24CAD77A00A65415 /* GetToKnowSQLite */ = {
 			isa = PBXGroup;
 			children = (
+				E55FD88324CADBF200A65415 /* Utils */,
+				E55FD88024CADB8E00A65415 /* Models */,
 				E55FD86C24CAD77A00A65415 /* AppDelegate.swift */,
 				E55FD86E24CAD77A00A65415 /* SceneDelegate.swift */,
 				E55FD87024CAD77A00A65415 /* ViewController.swift */,
@@ -65,6 +71,22 @@
 				E55FD87A24CAD77B00A65415 /* Info.plist */,
 			);
 			path = GetToKnowSQLite;
+			sourceTree = "<group>";
+		};
+		E55FD88024CADB8E00A65415 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E55FD88124CADB9E00A65415 /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E55FD88324CADBF200A65415 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E55FD88424CADBFB00A65415 /* DBHelper.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +162,8 @@
 			files = (
 				E55FD87124CAD77A00A65415 /* ViewController.swift in Sources */,
 				E55FD86D24CAD77A00A65415 /* AppDelegate.swift in Sources */,
+				E55FD88524CADBFB00A65415 /* DBHelper.swift in Sources */,
+				E55FD88224CADB9E00A65415 /* Person.swift in Sources */,
 				E55FD86F24CAD77A00A65415 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
